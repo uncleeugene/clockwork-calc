@@ -1,0 +1,11 @@
+name: time_calculator
+description: Calculator engine for hours:minutes and decimal-hour arithmetic, with shift-left digit entry, colon entry and history.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.1
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0

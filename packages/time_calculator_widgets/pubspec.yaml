@@ -1,0 +1,19 @@
+name: time_calculator_widgets
+description: Flutter keypad, display, history and full calculator view for the time_calculator engine.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.1
+  flutter: '>=3.35.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  time_calculator:
+    path: ../time_calculator
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
