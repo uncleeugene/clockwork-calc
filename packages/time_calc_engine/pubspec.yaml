@@ -1,7 +1,11 @@
-name: time_calculator
+name: time_calc_engine
 description: Calculator engine for hours:minutes and decimal-hour arithmetic, with shift-left digit entry, colon entry and history.
 version: 1.0.0
-publish_to: 'none'
+repository: https://github.com/uncleeugene/clockwork-calc/tree/main/packages/time_calc_engine
+issue_tracker: https://github.com/uncleeugene/clockwork-calc/issues
+topics:
+  - calculator
+  - time
 
 environment:
   sdk: ^3.13.1

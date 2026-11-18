@@ -1,0 +1,5 @@
+# Use the local engine while developing; the published widgets package
+# depends on time_calc_engine from pub.dev.
+dependency_overrides:
+  time_calc_engine:
+    path: packages/time_calc_engine

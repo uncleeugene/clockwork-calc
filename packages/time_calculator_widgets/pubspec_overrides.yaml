@@ -1,0 +1,3 @@
+dependency_overrides:
+  time_calc_engine:
+    path: ../time_calc_engine

@@ -397,10 +397,10 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.12"
-  time_calculator:
-    dependency: transitive
+  time_calc_engine:
+    dependency: "direct overridden"
     description:
-      path: "packages/time_calculator"
+      path: "packages/time_calc_engine"
       relative: true
     source: path
     version: "1.0.0"

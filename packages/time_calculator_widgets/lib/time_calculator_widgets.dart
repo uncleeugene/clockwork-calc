@@ -1,9 +1,9 @@
-/// Flutter widgets for the time_calculator engine. Use the pieces on their
+/// Flutter widgets for the time_calc_engine engine. Use the pieces on their
 /// own (keypad, display, history, format switch) sharing one
 /// [TimeCalculatorController], or the complete [TimeCalculatorView].
 library;
 
-export 'package:time_calculator/time_calculator.dart';
+export 'package:time_calc_engine/time_calc_engine.dart';
 
 export 'src/calculator_view.dart';
 export 'src/controller.dart';

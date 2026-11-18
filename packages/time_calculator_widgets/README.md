@@ -1,12 +1,11 @@
 # time_calculator_widgets
 
-Flutter UI for the [`time_calculator`](../time_calculator) engine: use the whole
+Flutter UI for the [`time_calc_engine`](https://pub.dev/packages/time_calc_engine) engine: use the whole
 calculator, or just the pieces you need.
 
 ```yaml
 dependencies:
-  time_calculator_widgets:
-    path: ../hourcalc/packages/time_calculator_widgets
+  time_calculator_widgets: ^1.0.0
 ```
 
 ```dart

@@ -1,4 +1,4 @@
-# time_calculator
+# time_calc_engine
 
 Calculator engine for time arithmetic in **hours:minutes** or **decimal hours**.
 Pure Dart, no Flutter dependency, no UI: you wire it to your own keys and display.
@@ -20,28 +20,15 @@ Pure Dart, no Flutter dependency, no UI: you wire it to your own keys and displa
 
 ## Install
 
-From a local path:
-
 ```yaml
 dependencies:
-  time_calculator:
-    path: ../hourcalc/packages/time_calculator
-```
-
-Or from a git repository:
-
-```yaml
-dependencies:
-  time_calculator:
-    git:
-      url: https://github.com/<you>/<repo>.git
-      path: packages/time_calculator
+  time_calc_engine: ^1.0.0
 ```
 
 ## Usage
 
 ```dart
-import 'package:time_calculator/time_calculator.dart';
+import 'package:time_calc_engine/time_calc_engine.dart';
 
 final calc = TimeCalculator();
 

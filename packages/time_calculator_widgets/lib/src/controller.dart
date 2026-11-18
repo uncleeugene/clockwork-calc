@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:time_calculator/time_calculator.dart';
+import 'package:time_calc_engine/time_calc_engine.dart';
 
 /// Wraps a [TimeCalculator] and notifies listeners after every action, so
 /// separate widgets (keypad, display, history…) stay in sync.

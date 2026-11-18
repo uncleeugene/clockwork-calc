@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:time_calculator/time_calculator.dart';
+import 'package:time_calc_engine/time_calc_engine.dart';
 
 import 'controller.dart';
 

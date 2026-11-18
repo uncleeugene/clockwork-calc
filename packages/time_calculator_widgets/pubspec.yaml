@@ -1,7 +1,12 @@
 name: time_calculator_widgets
-description: Flutter keypad, display, history and full calculator view for the time_calculator engine.
+description: Flutter keypad, display, history and full calculator view for the time_calc_engine engine.
 version: 1.0.0
-publish_to: 'none'
+repository: https://github.com/uncleeugene/clockwork-calc/tree/main/packages/time_calculator_widgets
+issue_tracker: https://github.com/uncleeugene/clockwork-calc/issues
+topics:
+  - calculator
+  - time
+  - widget
 
 environment:
   sdk: ^3.13.1
@@ -10,8 +15,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  time_calculator:
-    path: ../time_calculator
+  time_calc_engine: ^1.0.0
 
 dev_dependencies:
   flutter_test:
