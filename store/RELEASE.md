@@ -1,5 +1,16 @@
 # Releasing Clockwork Calc to Google Play
 
+## Next release: move the links to uncleeugene.kz
+
+The privacy policy and support pages now live at `https://uncleeugene.kz/clockwork-calc/privacy/` and
+`https://uncleeugene.kz/clockwork-calc/`. App Store Connect only lets a live app change its Privacy Policy URL and
+Support URL with a new version, so do it with the next update:
+
+- [ ] App Store Connect: in the new version, App Privacy → Privacy Policy URL, and the version's Support URL.
+- [ ] Play Console → Policy → App content → Privacy policy (can change any time).
+- [ ] Update the URLs in `store/listing.md` and the App Store listing notes.
+- [ ] Once both stores show the new links, the old Google Sites pages can go.
+
 ## One-time: upload key
 
 ```sh
